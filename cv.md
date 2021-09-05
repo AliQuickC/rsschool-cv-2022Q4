@@ -24,8 +24,8 @@ I want to master the profession of a front-end developer. Studied HTML layout. N
 - Babel
 
 ### Code example:
-```
 
+```
 // pattern event emiter
 Publisher = function() {
 	this._triggerEvent = function (eventName, e) {
@@ -49,7 +49,6 @@ Publisher = function() {
 		this.listeners[eventName].push(listener);
 	}
 }
-
 ```
 
 ### Working experience:
