@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+	<main class="main">
+		<div class="container">
+			<div class="cv">
+				<h1>Curriculum vitae</h1>
+				<h3>Photo:</h3>
+				<img src="./img/photo.jpg" alt="photo" width="200">
+
+				<h3>Name:</h3>
+				<p>Alekhin Aleksandr</p>
+
+				<h3>Contacts:</h3>
+				<p>email: <a href="mailto:aleksandera9@gmail.com">aleksandera9@gmail.com</a></p>
+				<p>site: <a href="https://ax-t.ru">https://ax-t.ru</a></p>
+
+
+				<h3>About me:</h3>
+				<p>
+					I want to master the profession of a front-end developer. Studied HTML layout. Now I am studying programming
+					in
+					JS.
+				</p>
+
+
+				<h3>Skills:</h3>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Sass</li>
+					<li>Gulp</li>
+					<li>jQuery</li>
+					<li>Верстка</li>
+					<li>Git</li>
+					<li>Bootstrap</li>
+					<li>JavaScript</li>
+					<li>Webpack</li>
+					<li>Babel</li>
+				</ul>
+
+				<h3>Code example:</h3>
+
+				<code>
+					<pre>
+// pattern event emiter
+Publisher = function() {
+			this._triggerEvent = function (eventName, e) {
+				if (!this.listeners) {
+					this.listeners = {};
+				}
+		if (!!this.listeners[eventName]) {
+			this.listeners[eventName].forEach((callback) => {
+				callback(e);
+			});
+		}
+	}
+	this.addEventListener = function (eventName,
+	listener) {
+		if (!this.listeners) {
+			this.listeners = {};
+		}
+		if (!this.listeners[eventName]) {
+			this.listeners[eventName] = [];
+		}
+		this.listeners[eventName].push(listener);
+	}
+}
+					</pre>
+				</code>
+
+				<h3>Working experience:</h3>
+				<p>
+					Completed a course on layout. I passed my diploma project on the course, a multi-page site. I also designed a
+					few more sites for my portfolio.
+				</p>
+
+
+				<h3>Education:</h3>
+				<ul>
+
+
+					<li>2019 – Website layout course</li>
+
+					<li>
+						2000 - 2003г. – SPbGUAP
+						Specialty: "software for computer technology
+						and automated systems "
+					</li>
+
+					<li>
+						1996 - 2000г. – S-Pb College of Telecommunications
+						Specialty: "software for computer technology
+						and automated systems "
+						-</li>
+				</ul>
+
+
+				<h3>English proficiency:</h3>
+				<p>Beginner</p>
+				<br>
+
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
